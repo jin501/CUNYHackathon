@@ -1,0 +1,52 @@
+Major.create(name: "Computer Science", credits: 120)
+
+Course.create(name: "Internet and Web Technologies", credits: "3", courseid: "CS 100", coursetype: "major", major_id: 1, prereqs: "MTH 136 OR MTH 138")
+
+
+Course.create(name: "Introduction to Electronic Game Design and Development", credits: "3", courseid: "CS 102", coursetype: "major", major_id: 1, prereqs: "")
+
+Course.create(name: "Computer Science Seminar", credits: "3", courseid: "CS 140", coursetype: "major", major_id: 1, prereqs: "PASS CUNY SKILLS TEST IN READING, WRITING AND MATH")
+
+Course.create(name: "Introduction to Computing", credits: "3", courseid: "CS 151", coursetype: "major", major_id: 1, prereqs: "MTH 151")
+
+Course.create(name: "Discrete Structures", credits: "3", courseid: "CS 241", coursetype: "major", major_id: 1, prereqs: "CS 151")
+
+Course.create(name: "Object-Oriented Programming", credits: "3", courseid: "CS 244", coursetype: "major", major_id: 1, prereqs: "CS 151")
+
+Course.create(name: "", credits: "3", courseid: "CS ", coursetype: "major", major_id: 1, prereqs: "")
+
+Course.create(name: "Data Structures", credits: "3", courseid: "CS 246", coursetype: "major", major_id: 1, prereqs: "CS 244")
+
+Course.create(name: "Digital Systems", credits: "4", courseid: "CS 260", coursetype: "major", major_id: 1, prereqs: "")
+
+Course.create(name: "Unix Systems Programming", credits: "3", courseid: "CS 265", coursetype: "major", major_id: 1, prereqs: "CS 244")
+
+Course.create(name: "Analysis of Algorithms", credits: "3", courseid: "CS 312", coursetype: "major", major_id: 1, prereqs: ""CS 241)
+
+Course.create(name: "Computer & Network Security", credits: "3", courseid: "CS 308", coursetype: "major", major_id: 1, prereqs: "CS 246")
+
+Course.create(name: "Database Systems", credits: "3", courseid: "CS 281", coursetype: "major", major_id: 1, prereqs: "CS 246")
+
+Course.create(name: "Network Programming", credits: "3", courseid: "CS 309", coursetype: "major", major_id: 1, prereqs: "CS 305")
+
+Course.create(name: "Operating Systems", credits: "3", courseid: "CS ", coursetype: "major", major_id: 1, prereqs: "CS 246")
+
+Course.create(name: "Operating Systems", credits: "3", courseid: "CS 315", coursetype: "major", major_id: 1, prereqs: "CS 246")
+
+Course.create(name: "Programming Language Paradigms", credits: "3", courseid: "CS 350", coursetype: "major", major_id: 1, prereqs: "CS 246")
+
+Course.create(name: "Software Engineering", credits: "3", courseid: "CS 360", coursetype: "major", major_id: 1, prereqs: "CS 246")
+
+Course.create(name: "Intelligent Systems", credits: "3", courseid: "CS 380", coursetype: "major", major_id: 1, prereqs: "MTH 237")
+
+Course.create(name: "Mobile Application Development", credits: "3", courseid: "CS 355", coursetype: "major", major_id: 1, prereqs: "CS 244")
+
+Course.create(name: "Scientific Programming", credits: "3", courseid: "CS 345", coursetype: "major", major_id: 1, prereqs: "CS 246")
+
+Course.create(name: "Computer Architecture", credits: "3", courseid: "CS 325", coursetype: "major", major_id: 1, prereqs: "CS 244")
+
+Course.create(name: "Scientific Programming II", credits: "3", courseid: "CS 390", coursetype: "major", major_id: 1, prereqs: "CS 345")
+
+Course.create(name: "Comp Sci Internship 1", credits: "3", courseid: "CS 401", coursetype: "major", major_id: 1, prereqs: "no prereqs")
+
+Course.create(name: "Comp Sci Internship ", credits: "3", courseid: "CS 402", coursetype: "major", major_id: 1, prereqs: "no prereqs")
