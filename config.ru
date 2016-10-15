@@ -9,5 +9,4 @@ end
 
 
 use UsersController
-use BucketsController
 run ApplicationController
