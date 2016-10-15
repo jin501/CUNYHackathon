@@ -22,7 +22,7 @@ class UsersController < ApplicationController
       user.save
       session[:user_id] = user.id
       ##flash message 'new user successfully created'
-      redirect '/buckets'
+      redirect "/users/#{@user.slug}"
     # else
     #   redirect '/failure'
     end
@@ -48,9 +48,26 @@ class UsersController < ApplicationController
   end
 
   get '/users/:slug' do
-    erb :profile
+    erb :'/users/profile'
   end
 
-  post '/users'
+  post '/users/:slug' do
+    #some logic here
+    #redirect to a view page erb :users/show
+  end
+
+  post '/logout' do
+
+  end
+
+  post '/users/advice' do 
+
+    redirect to '/users/advice'
+  end
+
+  get '/users/advice' do
+    erb :'/users/advice'
+  end
+
 
 end
