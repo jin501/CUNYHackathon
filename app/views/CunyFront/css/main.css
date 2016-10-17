@@ -143,6 +143,10 @@ nav a:hover {
     
 }
 
+#input {
+    color: black;
+}
+
 /* ===============
     ALL: IE Fixes
    =============== */
@@ -244,8 +248,9 @@ nav a:hover {
     }
 
     .main aside {
-        float: right;
-        width: 28%;
+        /*float: right;*/
+        width: 50%;
+        font-size: 1.3em;
     }
 }
 

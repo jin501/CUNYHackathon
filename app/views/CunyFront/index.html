@@ -20,7 +20,7 @@
 
         <div class="header-container">
             <header class="wrapper clearfix">
-                <h1 class="title">h1.title</h1>
+                <h1 class="title">AdviseU</h1>
                 <nav>
                     <ul>
                         <li><a href="advisement.html">Advisement</a></li
@@ -32,28 +32,27 @@
 
         <div class="main-container">
             <div class="main wrapper clearfix">
-
-                <article>
-                    <header>
-                        <h1>Add Courses</h1>
-                    </header>
-                </article>
-
-                <article>
-                    <header>
-                        <h1>Update General Information</h1>
-                    </header>
-                </article>
-
-
-
-
-                <aside>
+                <center>
+                <aside id="taken">
                     <h3>Courses Taken</h3>
-                    <h3>General Information</h3>
-                    <h5>Major</h5>
-                    <p></p>
                 </aside>
+                <br>
+                <form>
+                    <aside id="add_list">
+                        <h3>Add Courses</h3>
+                        <div id="new_list">
+                            <input id="input" type="text" name="new_course"> <br>
+                        </div>
+                        <br>
+                        <input type="button" value="Add Course" style="color:black;font-weight:bold;" onclick="add_course()">
+                    </aside>
+
+                    <br>
+                    <aside>
+                        <input type="submit" name="submit" style="color:black;font-weight:bold;">
+                    </aside>
+                </form>
+                </center>
 
             </div> <!-- #main -->
         </div> <!-- #main-container -->
@@ -64,6 +63,19 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/main.js"></script>
+
+        <script>
+            var courses_taken = [] // RUBY INSTANCE OF COURSES TAKEN ARRAY GOES HERE
+            var courses_new = []
+
+            courses_taken.forEach(function(d) {
+                $("#taken").append("<b>" + d + "</b> <br>");
+            })
+
+            function add_course() {
+                $("#new_list").append('<input id="input" type="text" name="course"> <br>');
+            }
+        </script>
 
     </body>
 
